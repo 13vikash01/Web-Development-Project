@@ -1,0 +1,47 @@
+
+.contents
+{
+   background-color: black;
+    text-align:center;
+    color: white;
+}
+.container
+{
+   margin-top: 20px;
+   width: 80%;
+   border-radius: 2px;
+}
+.table_bottom
+{
+    background-color: #2b2626;
+    text-align: center;
+    padding: 5px;
+}
+.table_heading
+        {
+            text-align: center;
+            background-color: blue;
+            padding: 5px;
+        }
+ 
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            
+          }
+          tbody
+          {
+              background-color: black;
+              color: blanchedalmond;
+             
+          }
+          td, th 
+          {
+            text-align: center;
+            padding: 5px;
+          }
+img{
+    width: 416;
+    height: 239;
+}          

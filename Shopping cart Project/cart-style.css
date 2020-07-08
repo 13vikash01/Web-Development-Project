@@ -1,0 +1,65 @@
+/*
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+  }
+  */
+  img
+  {
+      width: 150px;
+      height: 100px;
+  }
+  #price_area
+  {
+      width: 100%;
+      background-color: yellow;
+      
+  }
+
+  
+.table_bottom
+{
+    background-color: #2b2626;
+    text-align: center;
+    padding: 5px;
+}
+.table_heading
+        {
+            text-align: center;
+            background-color: blue;
+            padding: 5px;
+        }
+ 
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            
+          }
+          tbody
+          {
+              background-color: black;
+              color: blanchedalmond;
+             
+          }
+          td, th 
+          {
+            text-align: center;
+            padding: 5px;
+          }
+
+#tasklist th
+{
+    background-color: blue;
+}
+.change
+{
+  background-color: darkgoldenrod;
+}

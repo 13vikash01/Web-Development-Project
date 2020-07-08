@@ -1,0 +1,22 @@
+var objpeople = [
+    {
+        username: "Admin" ,
+      password: "Admin"
+    }
+    ,
+    {
+        username: "vineetks" ,
+        password: "vineetks"
+    }
+    ,
+    {
+        username: "random" ,
+        password: "1234"
+    }
+    ,
+    {
+        username: "person" ,
+        password: "12345"
+    }
+
+]

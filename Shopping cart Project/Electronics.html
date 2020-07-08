@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/ba0299c9c0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icon_pic.png" type="image/png">
+    <link rel="stylesheet" href="style page 1.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3d037" >
+        <a class="navbar-brand" href="Home.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="Electronics.html">Electronics<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Clothing.html">Clothing</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Sports.html">Sports</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Books.html">Books</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 m-2" type="submit">Search</button>
+            <a href="cart.html" class="btn btn-outline-success my-2 my-sm-0 m-2" type="submit">Cart</a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a><p id="cart_no" style="color: black;">0</p>
+            <a href="login.html" onclick="logout_fun()" class="btn btn-outline-success my-2 my-sm-0 m-2" type="submit">Log Out</a>
+          </form>
+        </div>
+      </nav>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <table>
+                    <th>Prices</th>
+                    <tr>
+                        <td><a href="#">Rs.0 - Rs.100</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Rs.100- Rs.1000</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Rs.1000 - Rs.5000</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Above 5000</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+    
+                                <img src="images/macbook.jpg" alt="Lights" style="width:100%">
+                                <div class="caption contents">
+                                    <p>Macbook Pro</p>
+                                    <p style="display: none;">1</p>
+                                    <a href="index.html" class="btn btn-primary item">explore</a>
+                                    <p>Rs <span>50000</span></p>
+                                    
+                                </div>
+            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            
+                                <img src="images/lg-tv.jpg" alt="Nature" style="width:100%">
+                                <div class="caption contents">
+                                    <p>Lg Tv</p>
+                                    <p style="display: none;">2</p>
+                                    <a href="index.html" class="btn btn-primary item">explore</a>
+                                    <p>Rs <span>59999</span></p>
+                                </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            
+                                <img src="images/redmi.jpg" alt="Fjords" style="width:100%">
+                                <div class="caption contents">
+                                    <p>Redmi note 8</p>
+                                    <p style="display: none;">3</p>
+                                    <a href="index.html" class="btn btn-primary item">explore</a>
+                                    <p>Rs <span>14999</span></p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            
+                                <img src="images/smartwatch.jpg" alt="Lights" style="width:100%">
+                                <div class="caption contents">
+                                    <p>Fast Track Smartwatch</p>
+                                    <p style="display: none;">4</p>
+                                    <a href="index.html" class="btn btn-primary item">explore</a>
+                                    <p>Rs <span>999</span></p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            
+                                <img src="images/earpods.jpg" alt="Nature" style="width:100%">
+                                <div class="caption contents">
+                                    <p>Boat Earpods</p>
+                                    <p style="display: none;">5</p>
+                                    <a href="index.html" class="btn btn-primary item">explore</a>
+                                    <p>Rs <span>1299</span></p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                           
+                                <img src="images/pendrive.jpg" alt="Fjords" style="width:100%">
+                                <div class="caption contents">
+                                    <p>Sony 32Gb </p>
+                                    <p style="display: none;">6</p>
+                                    <a href="index.html" class="btn btn-primary item">explore</a>
+                                    <p>Rs <span>1999</span></p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <table>
+          <th class="table_heading" colspan="4">Get connected with us on social networks.</th>
+
+          <tbody>
+
+            <tr>
+              <th><u>COMPANY NAME</u></th>
+              <th><u>PRODUCTS</u></th>
+              <th><u>USEFUL LINKS</u></th>
+              <th><u>CONTACTS</u></th>
+            </tr>
+            <tr>
+
+              <td rowspan="4">
+                <p>Here you can use rows and coloums</p>
+                <p>here you can organise your footer content.</p>
+                <p>Lorem ipsum dolor sit amet, comectur</p>
+                <p>adipisicing elit</p>
+              </td>
+              <td>MDBootstrap</td>
+              <td>Your Account</td>
+              <td>New York,NY 10012 ,US</td>
+            </tr>
+            <tr>
+              <td>MDWordPress</td>
+              <td>Become an Affiliate</td>
+              <td><a href="info@example.com">info@example.com</td>
+            </tr>
+            <tr>
+              <td>Brand Flow</td>
+              <td>Shipping Rates</td>
+              <td>+01 234 567 88</td>
+            </tr>
+            <tr>
+              <td>Bootstrap Angular</td>
+              <td>Help</td>
+              <td>+01 234 567 89</td>
+            </tr>
+            <th class="table_bottom" colspan="4">@2017Copyright:Shopping Bee.com</th>
+
+          </tbody>
+        </table>
+      </footer>
+
+    <script src="script-product-page.js"></script>
+</body>
+
+</html>
