@@ -1,2 +1,2 @@
-# CBChatBot
-CB ChatBot
+# ChatBot using API
+ChatBot
